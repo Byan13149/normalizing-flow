@@ -1,0 +1,18 @@
+[project]
+name = "m2-deep-learning-coursework"
+version = "1.0.0"
+description = "M2 Deep Learning Coursework"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+]
+ 
+[tool.setuptools]
+packages = []
+ 
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+ 
